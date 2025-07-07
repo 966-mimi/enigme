@@ -1,0 +1,9 @@
+combien y a-t-il de planetes dans notre systeme solaire? deux huit 2
+quel est le nom de notre etoile? berger soleil 2
+quel est la plus grosse planete du systeme solaire? jupiter neptune 1
+quelle est la quatrieme planete du systeme solaire? mars terre 1
+quelle est la planete la plus chaude? uranus venus 2
+pluton n'est pas une planete? vrai faux 1
+quel est la plus petite planete du systeme solaire? lune mercure 2
+
+

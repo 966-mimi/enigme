@@ -1,0 +1,34 @@
+  while(boucle)
+  {
+    if(SDL_PollEvent(&event))
+    {
+       
+      switch(event.type)
+	{ 
+         case SDL_QUIT:
+           boucle=0;
+         break;
+         case SDL_KEYDOWN:
+	 	switch(event.key.keysym.sym)
+		{
+    		case SDLK_a: // Touche "a" pour répondre 1
+        		rep1=1;
+       			n=1;
+    		break;
+    		case SDLK_z: // Touche "z" pour répondre 2
+        		rep2=2;
+       			n=1;
+   		break; 
+   		case SDLK_RETURN:
+        		num=alea_enigme(E);
+        		rep=0;
+        		deb_time=SDL_GetTicks();
+        		n=0;
+        		time_running=1;
+    		break;
+	}
+          
+            
+         break;
+       }
+    }
